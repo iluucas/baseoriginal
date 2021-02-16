@@ -103,9 +103,9 @@ const { limit } = require('./database/menu/limit')
 // Load Vcard Contact
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:NazwaðŸ–¤\n' // full name
+            + 'FN:BOTZERA\n' // full name
             + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=12542123926:+1 (254) 212-3926\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=5511988528995:+55 11988528995\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 prefix = botPrefix
 blocked = []
